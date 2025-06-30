@@ -1,5 +1,5 @@
 # Site settings
-title: Vineethkumar Marpadge - Cloud Engineer 2 at AWS | 12x AWS Certified Golden Jacket Holder
+title: Vineethkumar Marpadge ☁️ - Cloud Engineer 2 at AWS | 12x AWS Certified Golden Jacket Holder
 email: vineethkumarmarpadge@gmail.com
 description: >-
   Cloud Engineer 2 at AWS with 5+ years of experience. 12x AWS Certified Golden Jacket Holder, 1x Terraform Certified.
@@ -13,7 +13,7 @@ linkedin_username: vmarpadge
 # SEO and Social Media
 logo: /assets/images/profile.jpg
 social:
-  name: Vineethkumar Marpadge
+  name: Vineethkumar Marpadge ☁️
   links:
     - https://linkedin.com/in/vineethkumar-marpadge
     - https://github.com/vineethkumar-marpadge
@@ -28,7 +28,7 @@ plugins:
 
 # Custom variables
 author:
-  name: Vineethkumar Marpadge
+  name: Vineethkumar Marpadge ☁️
   title: Cloud Support Engineer 2
   company: Amazon Web Services (AWS)
   location: India
