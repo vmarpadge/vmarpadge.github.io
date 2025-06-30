@@ -1,9 +1,9 @@
 # Site settings
-title: Vineethkumar Marpadge - AWS Cloud Support Engineer
-email: vineethkumar.marpadge@example.com
+title: Vineethkumar Marpadge - Cloud Engineer 2 at AWS | 8x AWS Certified
+email: vineethkumarmarpadge@gmail.com
 description: >-
-  Cloud Support Engineer 2 at AWS with DevOps expertise. Specializing in AWS services,
-  infrastructure automation, and helping customers solve complex cloud challenges.
+  Cloud Engineer 2 at AWS with 5+ years of experience. 8x AWS Certified, 1x Terraform Certified.
+  Specializing in cloud infrastructure, resolved 200+ complex issues, achieved 40% cost savings.
 baseurl: "/vineethkumarmarpadge.github.io" # the subpath of your site
 url: "https://vmarpadge.github.io" # the base hostname & protocol for your site
 twitter_username: vineethkumar_aws
