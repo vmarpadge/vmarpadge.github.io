@@ -123,8 +123,8 @@ Custom styles are in `_sass/custom.scss` and include:
 For questions about this portfolio or professional inquiries:
 
 - **Email**: vineethkumarmarpadge@gmail.com
-- **LinkedIn**: [linkedin.com/in/vineethkumar-marpadge](https://linkedin.com/in/vmarpadge)
-- **GitHub**: [github.com/vineethkumar-marpadge](https://github.com/vmarpadge)
+- **LinkedIn**: [linkedin.com/in/vmarpadge](https://linkedin.com/in/vmarpadge)
+- **GitHub**: [github.com/vmarpadge](https://github.com/vmarpadge)
 
 ## License
 
