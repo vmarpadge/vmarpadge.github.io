@@ -1,0 +1,62 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="author" content="{{ site.author.name }}">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.author.image }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.author.image }}">
+  {% if site.twitter_username %}
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+  {% endif %}
+  
+  <!-- LinkedIn Meta Tags -->
+  <meta property="article:author" content="{{ site.author.name }}">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/profile.jpg' | relative_url }}">
+  
+  <title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "jobTitle": "{{ site.author.title }}",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "{{ site.author.company }}"
+    },
+    "description": "{{ site.author.bio | strip_html | normalize_whitespace | escape }}",
+    "image": "{{ site.url }}{{ site.author.image }}",
+    "url": "{{ site.url }}",
+    "sameAs": [
+      {% if site.linkedin_username %}"https://linkedin.com/in/{{ site.linkedin_username }}",{% endif %}
+      {% if site.github_username %}"https://github.com/{{ site.github_username }}",{% endif %}
+      {% if site.twitter_username %}"https://twitter.com/{{ site.twitter_username }}"{% endif %}
+    ]
+  }
+  </script>
+</head>

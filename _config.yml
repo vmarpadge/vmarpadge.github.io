@@ -1,0 +1,63 @@
+# Site settings
+title: Vineethkumar Marpadge - AWS Cloud Support Engineer
+email: vineethkumar.marpadge@example.com
+description: >-
+  Cloud Support Engineer 2 at AWS with DevOps expertise. Specializing in AWS services,
+  infrastructure automation, and helping customers solve complex cloud challenges.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vineethkumar-marpadge.github.io" # the base hostname & protocol for your site
+twitter_username: vineethkumar_aws
+github_username: vineethkumar-marpadge
+linkedin_username: vineethkumar-marpadge
+
+# SEO and Social Media
+logo: /assets/images/profile.jpg
+social:
+  name: Vineethkumar Marpadge
+  links:
+    - https://linkedin.com/in/vineethkumar-marpadge
+    - https://github.com/vineethkumar-marpadge
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Custom variables
+author:
+  name: Vineethkumar Marpadge
+  title: Cloud Support Engineer 2
+  company: Amazon Web Services (AWS)
+  location: India
+  image: /assets/images/profile.jpg
+  bio: >-
+    DevOps Engineer turned AWS Cloud Support Engineer with expertise in troubleshooting
+    complex cloud infrastructure challenges and helping customers achieve their goals.
+
+# Navigation
+header_pages:
+  - about.md
+  - experience.md
+  - skills.md
+  - projects.md
+  - blog.md
+  - contact.md
+
+# Collections
+collections:
+  case_studies:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
