@@ -122,9 +122,9 @@ Custom styles are in `_sass/custom.scss` and include:
 
 For questions about this portfolio or professional inquiries:
 
-- **Email**: vineethkumar.marpadge@example.com
-- **LinkedIn**: [linkedin.com/in/vineethkumar-marpadge](https://linkedin.com/in/vineethkumar-marpadge)
-- **GitHub**: [github.com/vineethkumar-marpadge](https://github.com/vineethkumar-marpadge)
+- **Email**: vineethkumarmarpadge@gmail.com
+- **LinkedIn**: [linkedin.com/in/vineethkumar-marpadge](https://linkedin.com/in/vmarpadge)
+- **GitHub**: [github.com/vineethkumar-marpadge](https://github.com/vmarpadge)
 
 ## License
 
