@@ -14,7 +14,7 @@ title: Home
     </p>
     <div class="hero-buttons">
       <a href="{{ '/contact' | relative_url }}" class="btn btn-primary">Get In Touch</a>
-      <a href="{{ '/assets/resume.pdf' | relative_url }}" class="btn btn-secondary" target="_blank">Download Resume</a>
+      <a href="{{ '/assets/documents/Vineethkumar-Marpadge-FlowCV-Resume-20250630.pdf' | relative_url }}" class="btn btn-secondary" target="_blank">Download Resume</a>
     </div>
   </div>
 </div>
