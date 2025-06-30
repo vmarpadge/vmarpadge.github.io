@@ -4,11 +4,11 @@ email: vineethkumar.marpadge@example.com
 description: >-
   Cloud Support Engineer 2 at AWS with DevOps expertise. Specializing in AWS services,
   infrastructure automation, and helping customers solve complex cloud challenges.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vineethkumar-marpadge.github.io" # the base hostname & protocol for your site
+baseurl: "/vineethkumarmarpadge.github.io" # the subpath of your site
+url: "https://vmarpadge.github.io" # the base hostname & protocol for your site
 twitter_username: vineethkumar_aws
-github_username: vineethkumar-marpadge
-linkedin_username: vineethkumar-marpadge
+github_username: vmarpadge
+linkedin_username: vmarpadge
 
 # SEO and Social Media
 logo: /assets/images/profile.jpg

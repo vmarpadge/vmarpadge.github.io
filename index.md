@@ -5,7 +5,7 @@ title: Home
 
 <div class="hero-section">
   <div class="hero-content">
-    <img src="/assets/images/profile.jpg" alt="Vineethkumar Marpadge - AWS Cloud Support Engineer" class="profile-image">
+    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Vineethkumar Marpadge - AWS Cloud Support Engineer" class="profile-image">
     <h1>Vineethkumar Marpadge</h1>
     <h2>Cloud Support Engineer 2 at Amazon Web Services</h2>
     <p class="hero-description">
@@ -13,8 +13,8 @@ title: Home
       helping customers solve complex technical challenges and achieve their cloud goals.
     </p>
     <div class="hero-buttons">
-      <a href="/contact" class="btn btn-primary">Get In Touch</a>
-      <a href="/assets/resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+      <a href="{{ '/contact' | relative_url }}" class="btn btn-primary">Get In Touch</a>
+      <a href="{{ '/assets/resume.pdf' | relative_url }}" class="btn btn-secondary" target="_blank">Download Resume</a>
     </div>
   </div>
 </div>

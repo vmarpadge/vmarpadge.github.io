@@ -7,7 +7,7 @@ permalink: /about/
 # About Vineethkumar Marpadge
 
 <div class="about-hero">
-  <img src="/assets/images/profile.jpg" alt="Vineethkumar Marpadge - AWS Cloud Support Engineer" class="about-profile-image">
+  <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Vineethkumar Marpadge - AWS Cloud Support Engineer" class="about-profile-image">
   <div class="about-intro">
     <h2>Professional Journey</h2>
     <p class="about-tagline">Bridging complex technical solutions with exceptional customer success</p>
