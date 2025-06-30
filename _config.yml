@@ -1,8 +1,8 @@
 # Site settings
-title: Vineethkumar Marpadge - Cloud Engineer 2 at AWS | 8x AWS Certified
+title: Vineethkumar Marpadge - Cloud Engineer 2 at AWS | 12x AWS Certified Golden Jacket Holder
 email: vineethkumarmarpadge@gmail.com
 description: >-
-  Cloud Engineer 2 at AWS with 5+ years of experience. 8x AWS Certified, 1x Terraform Certified.
+  Cloud Engineer 2 at AWS with 5+ years of experience. 12x AWS Certified Golden Jacket Holder, 1x Terraform Certified.
   Specializing in cloud infrastructure, resolved 200+ complex issues, achieved 40% cost savings.
 baseurl: "/vineethkumarmarpadge.github.io" # the subpath of your site
 url: "https://vmarpadge.github.io" # the base hostname & protocol for your site
@@ -34,8 +34,9 @@ author:
   location: India
   image: /assets/images/profile.jpg
   bio: >-
-    DevOps Engineer turned AWS Cloud Support Engineer with expertise in troubleshooting
-    complex cloud infrastructure challenges and helping customers achieve their goals.
+    Motivated and customer-focused AWS engineer with 5+ years of experience providing technical support 
+    for cloud-based systems. 12x AWS Certified Golden Jacket Holder, 1x Terraform Certified. Successfully resolved 200+ complex 
+    cloud infrastructure issues and achieved 40% cost savings through optimized cloud solutions.
 
 # Navigation
 header_pages:
