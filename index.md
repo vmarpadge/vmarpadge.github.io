@@ -17,6 +17,13 @@ title: Home
       <a href="{{ '/contact' | relative_url }}" class="btn btn-primary">Get in touch</a>
       <a href="{{ '/assets/documents/Vineethkumar-Marpadge-Resume.pdf' | relative_url }}" class="btn btn-secondary" target="_blank">Download résumé</a>
     </div>
+    <div class="hero-social">
+      <a href="https://github.com/vmarpadge" target="_blank" rel="noopener">GitHub</a>
+      <span>·</span>
+      <a href="https://linkedin.com/in/vmarpadge" target="_blank" rel="noopener">LinkedIn</a>
+      <span>·</span>
+      <a href="https://credly.com/users/vmarpadge" target="_blank" rel="noopener">Credly</a>
+    </div>
   </div>
 </div>
 

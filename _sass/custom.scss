@@ -32,6 +32,13 @@ $card-border:#e2e8f0;
   h2 { font-size: 1.25rem; color: $accent; margin-bottom: 1.1rem; font-weight: 500; }
   .hero-description { font-size: 1.12rem; line-height: 1.65; margin-bottom: 2rem; opacity: .92; }
   .hero-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+  .hero-social {
+    margin-top: 1.2rem; font-size: .95rem; opacity: .85;
+    a { color: #fff; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.35);
+      &:hover { border-bottom-color: $accent; color: $accent; } }
+    span { margin: 0 .5rem; opacity: .5; }
+  }
 }
 
 // ---- Buttons ----
