@@ -8,6 +8,38 @@ permalink: /projects/
 
 *Note: All customer information has been anonymized to protect confidentiality while showcasing technical expertise and problem-solving approaches.*
 
+## Personal & Open-Source Projects
+
+### FanDeck for Atomberg — macOS Menu Bar App
+**Overview**: A native macOS menu bar app to control Atomberg smart ceiling fans (power, speed 1–6, and light) directly from the Mac, built on the official Atomberg Home public API.
+
+**Highlights**:
+- **Swift / SwiftUI** menu bar app that builds with Command Line Tools alone — no full Xcode or Apple ID required
+- **Quota-aware API client**: token caching, batched state reads, lazy polling, a command reserve, and 429 back-off to stay within the API's 100-calls/day limit
+- **Optimistic UI with delayed confirmation** to handle the gap between a command being *accepted* and *applied*
+- **Secure credential handling**: API key and refresh token stored in the macOS Keychain via the Security framework; ephemeral `URLSession`, no secrets on disk or in logs
+- **CI/CD**: a GitHub Actions workflow builds and publishes a downloadable release on each tagged version
+
+**Technologies**: Swift, SwiftUI, Security framework (Keychain), URLSession, GitHub Actions, REST API integration
+
+[View on GitHub →](https://github.com/vmarpadge/fandeck-for-atomberg)
+
+---
+
+### Parkinson's Detection Using Machine Learning
+**Overview**: Detecting Parkinson's disease from sustained-vowel speech samples using signal features and an SVM classifier, with particle-swarm optimization for feature selection.
+
+**Highlights**:
+- Feature extraction (jitter, shimmer, HNR/NHR, pitch metrics) from the standard UCI voice dataset
+- Dimensionality reduction via Particle Swarm Optimization (PSO)
+- SVM classification for healthy-vs-affected prediction
+
+**Technologies**: Python, Machine Learning, SVM, PSO, signal processing
+
+[View on GitHub →](https://github.com/vmarpadge/Parkinsons-Detection-Using-Machine-Learning)
+
+---
+
 ## Customer Support Success Stories
 
 ### Critical Production Deployment Recovery
