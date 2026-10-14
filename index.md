@@ -5,68 +5,57 @@ title: Home
 
 <div class="hero-section">
   <div class="hero-content">
-    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Vineethkumar Marpadge - AWS Cloud Support Engineer" class="profile-image">
+    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Vineethkumar Marpadge" class="profile-image">
     <h1>Vineethkumar Marpadge</h1>
-    <h2>Cloud Support Engineer 2 at Amazon Web Services</h2>
+    <h2>Cloud Engineer II · Agentic Development &amp; MCP · 13x AWS Certified</h2>
     <p class="hero-description">
-      DevOps Engineer with deep expertise in AWS cloud infrastructure, passionate about 
-      helping customers solve complex technical challenges and achieve their cloud goals.
+      I build and operate production software and cloud platforms on AWS. Claude Code is my
+      primary development environment — I run multiple agents in parallel, review their output
+      critically, and own every line that reaches production.
     </p>
     <div class="hero-buttons">
-      <a href="{{ '/contact' | relative_url }}" class="btn btn-primary">Get In Touch</a>
-      <a href="{{ '/assets/documents/Vineethkumar-Marpadge-FlowCV-Resume-20250630.pdf' | relative_url }}" class="btn btn-secondary" target="_blank">Download Resume</a>
+      <a href="{{ '/contact' | relative_url }}" class="btn btn-primary">Get in touch</a>
+      <a href="{{ '/assets/documents/Vineethkumar-Marpadge-Resume.pdf' | relative_url }}" class="btn btn-secondary" target="_blank">Download résumé</a>
     </div>
   </div>
 </div>
 
-## About Me
+<div class="stats-band">
+  <div class="stat"><span class="stat-num">7+</span><span class="stat-label">Years in cloud &amp; software</span></div>
+  <div class="stat"><span class="stat-num">13x</span><span class="stat-label">AWS Certified (Golden Jacket)</span></div>
+  <div class="stat"><span class="stat-num">200+</span><span class="stat-label">Production deployments supported</span></div>
+  <div class="stat"><span class="stat-num">70+</span><span class="stat-label">Technical interviews conducted</span></div>
+</div>
 
-Welcome! I'm Vineethkumar Marpadge, a Cloud Support Engineer 2 at Amazon Web Services with a strong background in DevOps engineering. I specialize in helping customers navigate complex cloud infrastructure challenges while leveraging my hands-on experience with AWS services.
+## What I do
 
-### What I Do
+I work at the intersection of **cloud engineering** and **agentic development**. Day to day that means:
 
-As a Cloud Support Engineer at AWS, I work directly with customers to:
-- **Troubleshoot complex technical issues** across multiple AWS services
-- **Provide architectural guidance** for scalable and resilient cloud solutions  
-- **Resolve critical production incidents** with urgency and precision
-- **Share best practices** for cloud infrastructure optimization
+- **Building agentic workflows and MCP servers** that connect large language models to tools and
+  internal systems, deployed on **Amazon Bedrock** and **Bedrock AgentCore**.
+- **Developing with Claude Code as my primary environment** — scoping tasks for multiple parallel
+  agents, reviewing their output, and shipping production code with tests and documentation.
+- **Operating production AWS platforms** — ECS/EKS, Lambda, RDS, networking, and CI/CD — and
+  turning recurring issues into automated, tested checks and product fixes.
+- **Enabling people** — translating non-engineering workflows into technical plans, writing design
+  docs and decision records, and running hands-on workshops for engineers and non-engineers.
 
-### My Expertise
-
-I have extensive experience with core AWS services including:
-- **Developer Tools**: CodePipeline, CodeDeploy, CodeBuild, CodeCommit, CodeArtifact
-- **Compute & Deployment**: Elastic Beanstalk, EC2, App Runner
-- **Networking & Content Delivery**: CloudFront, VPC, Load Balancers
-- **Database & Storage**: RDS, database connectivity troubleshooting
-- **Infrastructure as Code**: CloudFormation, automated deployments
-
-### My Approach
-
-I believe in bridging the gap between complex technical solutions and customer success. Whether it's resolving a critical deployment failure, optimizing database connectivity, or implementing CI/CD best practices, I focus on:
-
-- **Clear communication** of technical concepts
-- **Rapid problem resolution** with thorough root cause analysis
-- **Knowledge transfer** to empower customers
-- **Proactive recommendations** for improved reliability
-
----
-
-*"I sincerely appreciate your patience and understanding. Thank you and wish you an AWSome day ahead!"* - My signature sign-off that reflects my commitment to customer success.
-
-<div class="recent-highlights">
-  <h3>Recent Highlights</h3>
-  <div class="highlight-grid">
-    <div class="highlight-item">
-      <h4>🚀 Deployment Success</h4>
-      <p>Resolved critical CodeDeploy issues for production applications</p>
-    </div>
-    <div class="highlight-item">
-      <h4>🔧 Infrastructure Optimization</h4>
-      <p>Helped customers optimize Elastic Beanstalk environments</p>
-    </div>
-    <div class="highlight-item">
-      <h4>📊 Database Connectivity</h4>
-      <p>Troubleshot complex RDS connectivity and performance issues</p>
-    </div>
+<div class="highlight-grid">
+  <div class="highlight-item">
+    <h4>🤖 Agentic &amp; GenAI</h4>
+    <p>MCP servers and AI agents on Amazon Bedrock &amp; Bedrock AgentCore, in production for enterprise customers.</p>
   </div>
+  <div class="highlight-item">
+    <h4>🛠️ Internal tooling</h4>
+    <p>Node.js troubleshooting dashboard &amp; automated issue detector — 98 unit tests at 95% coverage.</p>
+  </div>
+  <div class="highlight-item">
+    <h4>☁️ Reliability &amp; cost</h4>
+    <p>Advised Blue/Green &amp; Canary release safety; helped customers reach ~40% lower spend and 99.9% uptime.</p>
+  </div>
+</div>
+
+<div class="cta-row">
+  <a href="{{ '/projects' | relative_url }}" class="btn btn-primary">See projects</a>
+  <a href="{{ '/experience' | relative_url }}" class="btn btn-outline">View experience</a>
 </div>

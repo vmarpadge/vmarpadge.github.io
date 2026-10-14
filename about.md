@@ -4,66 +4,57 @@ title: About
 permalink: /about/
 ---
 
-# About Vineethkumar Marpadge
-
 <div class="about-hero">
-  <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Vineethkumar Marpadge - AWS Cloud Support Engineer" class="about-profile-image">
+  <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Vineethkumar Marpadge" class="about-profile-image">
   <div class="about-intro">
-    <h2>Professional Journey</h2>
-    <p class="about-tagline">Bridging complex technical solutions with exceptional customer success</p>
+    <h2>Vineethkumar Marpadge</h2>
+    <p class="about-tagline">Cloud Engineer II · building agentic systems and reliable cloud platforms on AWS</p>
   </div>
 </div>
 
-## Professional Journey
+## Summary
 
-I am a Cloud Support Engineer 2 at Amazon Web Services, where I combine my DevOps engineering background with deep AWS expertise to help customers solve their most challenging cloud infrastructure problems. My journey in cloud computing has been driven by a passion for automation, scalability, and customer success.
+I'm a Cloud Engineer with **7+ years** building and operating production software and cloud
+platforms on AWS. **Claude Code is my primary development environment**: I run multiple agents in
+parallel on well-scoped tasks, critically review their output, and own every line that reaches
+production.
 
-## My Mission
+I build **agentic workflows and Model Context Protocol (MCP) servers** deployed on **Amazon Bedrock**
+and **Bedrock AgentCore**, connecting large language models to tools and internal systems — turning
+repeated manual investigation work into automated, tested checks. I translate non-engineering
+stakeholders' workflows into technical plans, write design docs and decision records, and run
+hands-on enablement for engineers and non-engineers alike.
 
-As a bridge between complex technical solutions and customer success, I strive to:
+I'm a **Claude Certified Associate (CCAO-F)**, **13x AWS Certified (Golden Jacket)**, and an
+experienced technical interviewer (70+ interviews).
 
-- **Empower customers** with the knowledge and tools they need to succeed in the cloud
-- **Solve complex problems** with innovative, scalable solutions
-- **Share expertise** through clear communication and knowledge transfer
-- **Drive excellence** in cloud infrastructure and deployment practices
+## How I work
 
-## Core Values
+### Agent-assisted, human-owned
+I treat AI coding agents as a force multiplier, not an autopilot. Tasks are scoped tightly, output is
+reviewed critically, and I remain accountable for everything that ships — with tests, code review, and
+documentation for handoff.
 
-### Customer Obsession
-Every interaction is an opportunity to exceed expectations. I believe in going above and beyond to ensure customer success, whether it's a critical production issue or a strategic architectural discussion.
+### Build for operability
+Whether it's an MCP server or a Lambda microservice, I design for the people who'll run it: runbooks,
+decision records, observability, and safe release patterns (Blue/Green, Canary).
 
-### Technical Excellence
-Continuous learning and staying current with AWS services and best practices is essential. I maintain deep technical knowledge across multiple AWS domains to provide comprehensive support.
+### Translate, then build
+A lot of value comes from turning someone's manual, repetitive workflow into a clear technical plan —
+and then into tooling that removes the toil.
 
-### Clear Communication
-Complex technical concepts should be accessible. I focus on explaining solutions in a way that empowers customers to understand and implement recommendations effectively.
+## Recognition
 
-### Proactive Problem Solving
-Beyond fixing immediate issues, I look for opportunities to prevent future problems through architectural improvements and best practice recommendations.
+- **Most Valuable Player (×2)** — 2023 and 2025
+- **Mentoring &amp; training award (×3)** — most recent 2026
+- **Knowledge-sharing award** — 2023
 
-## What Sets Me Apart
+## Education
 
-### Dual Perspective
-My background as both a DevOps engineer and AWS support engineer gives me unique insight into both the operational challenges customers face and the AWS solutions that can address them.
+**B.E., Electronics &amp; Telecommunication Engineering** — Sinhgad Academy of Engineering, Pune
+(Savitribai Phule Pune University). CGPA 8.25, First Class with Distinction.
 
-### Hands-On Experience
-I don't just know the theory - I've implemented these solutions in real-world scenarios, giving me practical insights that benefit every customer interaction.
-
-### Customer-First Mindset
-Every case is an opportunity to make a customer's day better. I take pride in turning frustrating technical problems into learning opportunities and success stories.
-
-## Beyond Work
-
-When I'm not helping customers solve cloud challenges, I enjoy:
-- Exploring new AWS services and features
-- Contributing to technical communities
-- Sharing knowledge through documentation and best practices
-- Staying current with DevOps and cloud industry trends
-
-## Let's Connect
-
-I'm always interested in connecting with fellow cloud professionals, sharing knowledge, and learning about new challenges and solutions in the cloud space.
-
----
-
-*"Thank you for taking the time to learn about my background. I look forward to the opportunity to help you achieve your cloud goals!"*
+<div class="cta-row">
+  <a href="{{ '/assets/documents/Vineethkumar-Marpadge-Resume.pdf' | relative_url }}" class="btn btn-primary" target="_blank">Download résumé</a>
+  <a href="{{ '/contact' | relative_url }}" class="btn btn-outline">Get in touch</a>
+</div>

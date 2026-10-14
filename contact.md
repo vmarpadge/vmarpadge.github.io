@@ -4,125 +4,43 @@ title: Contact
 permalink: /contact/
 ---
 
-# Let's Connect
+# Let's connect
 
-I'm always interested in connecting with fellow cloud professionals, sharing knowledge, and exploring opportunities to help solve complex technical challenges.
-
-## Professional Contact
+I'm always happy to talk about agentic development, MCP, AWS, or interesting engineering problems.
+The best way to reach me is email or LinkedIn.
 
 <div class="contact-grid">
   <div class="contact-item">
     <h3>📧 Email</h3>
-    <p><a href="mailto:vineethkumar.marpadge@example.com">vineethkumar.marpadge@example.com</a></p>
+    <p><a href="mailto:vineethkumarmarpadge@gmail.com">vineethkumarmarpadge@gmail.com</a></p>
   </div>
-  
   <div class="contact-item">
     <h3>💼 LinkedIn</h3>
-    <p><a href="https://linkedin.com/in/vineethkumar-marpadge" target="_blank">linkedin.com/in/vineethkumar-marpadge</a></p>
+    <p><a href="https://linkedin.com/in/vmarpadge" target="_blank">linkedin.com/in/vmarpadge</a></p>
   </div>
-  
   <div class="contact-item">
     <h3>🐙 GitHub</h3>
-    <p><a href="https://github.com/vineethkumar-marpadge" target="_blank">github.com/vineethkumar-marpadge</a></p>
+    <p><a href="https://github.com/vmarpadge" target="_blank">github.com/vmarpadge</a></p>
   </div>
-  
+  <div class="contact-item">
+    <h3>🏅 Credly</h3>
+    <p><a href="https://credly.com/users/vmarpadge" target="_blank">credly.com/users/vmarpadge</a></p>
+  </div>
   <div class="contact-item">
     <h3>📍 Location</h3>
-    <p>India</p>
+    <p>Hyderabad, India (Remote)</p>
+  </div>
+  <div class="contact-item">
+    <h3>📄 Résumé</h3>
+    <p><a href="{{ '/assets/documents/Vineethkumar-Marpadge-Resume.pdf' | relative_url }}" target="_blank">Download PDF</a></p>
   </div>
 </div>
 
-## What I Can Help With
+## What I'm happy to talk about
 
-### AWS Technical Support
-- Troubleshooting complex AWS service issues
-- Architecture reviews and optimization recommendations
-- Best practices for cloud infrastructure
-- CI/CD pipeline design and troubleshooting
+- Building **agentic workflows and MCP servers** (Bedrock / AgentCore) and connecting LLMs to real tools.
+- Using **Claude Code and AI coding agents** effectively in a production workflow.
+- **AWS architecture, reliability, and cost** — ECS/EKS, Lambda, networking, CI/CD.
+- **Mentoring, interviewing, and enablement** for engineers and non-engineers.
 
-### DevOps Consulting
-- Infrastructure as Code implementation
-- Automation strategy and implementation
-- Monitoring and observability solutions
-- Cloud migration planning and execution
-
-### Knowledge Sharing
-- Technical presentations and workshops
-- Mentoring and career guidance
-- Documentation and best practices
-- Community contributions
-
-## Professional Interests
-
-I'm particularly interested in discussions about:
-
-- **AWS Service Innovations**: Latest features and best practices
-- **DevOps Culture**: Building effective DevOps teams and processes
-- **Customer Success**: Strategies for exceptional technical support
-- **Automation**: Reducing manual work through intelligent automation
-- **Cloud Architecture**: Scalable, resilient, and cost-effective designs
-
-## Response Expectations
-
-- **Professional Inquiries**: I aim to respond within 24-48 hours
-- **Technical Questions**: Happy to provide guidance and resources
-- **Collaboration Opportunities**: Always open to interesting projects
-- **Networking**: Enjoy connecting with fellow cloud professionals
-
-## Current Availability
-
-As a full-time AWS Cloud Support Engineer, I'm available for:
-- Professional networking and knowledge sharing
-- Technical discussions and consultations
-- Speaking opportunities at conferences or meetups
-- Mentoring and career guidance conversations
-
-*Please note: I cannot provide official AWS support through personal channels. For AWS technical support, please use official AWS Support channels.*
-
----
-
-## Let's Start a Conversation
-
-Whether you're facing a challenging technical problem, looking to optimize your cloud infrastructure, or simply want to connect with a fellow cloud enthusiast, I'd love to hear from you.
-
-<div class="contact-form-section">
-  <h3>Quick Contact Form</h3>
-  <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
-    <div class="form-group">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
-    </div>
-    
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
-    </div>
-    
-    <div class="form-group">
-      <label for="subject">Subject</label>
-      <select id="subject" name="subject" required>
-        <option value="">Select a topic</option>
-        <option value="technical-question">Technical Question</option>
-        <option value="collaboration">Collaboration Opportunity</option>
-        <option value="networking">Professional Networking</option>
-        <option value="speaking">Speaking Opportunity</option>
-        <option value="other">Other</option>
-      </select>
-    </div>
-    
-    <div class="form-group">
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" required placeholder="Tell me about your challenge, question, or how I can help..."></textarea>
-    </div>
-    
-    <button type="submit" class="btn btn-primary">Send Message</button>
-  </form>
-</div>
-
----
-
-## Professional Philosophy
-
-*"Every interaction is an opportunity to learn, share knowledge, and make someone's day a little better. Whether it's solving a complex technical problem or sharing insights that help someone grow in their career, I believe in the power of genuine professional relationships."*
-
-**Thank you for your interest in connecting. I look forward to hearing from you and wish you an AWSome day ahead!** 🚀
+<p class="muted">Note: I can't provide official AWS support through personal channels — please use official AWS Support for that.</p>

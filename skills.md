@@ -1,194 +1,135 @@
 ---
 layout: page
-title: Technical Skills
+title: Skills
 permalink: /skills/
 ---
 
-# Technical Skills & Expertise
+# Technical Skills
 
-## AWS Services Expertise
+<div class="skills-groups">
 
-### Developer Tools & CI/CD
-<div class="skill-category">
-  <div class="skill-item">
-    <span class="skill-name">AWS CodePipeline</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 95%"></div>
-    </div>
+  <div class="skill-group">
+    <h3>🤖 Agentic development</h3>
+    <ul class="tag-list">
+      <li>Claude Code (daily, multi-agent, production)</li>
+      <li>AGENTS.md / CLAUDE.md conventions</li>
+      <li>Custom skills</li>
+      <li>Slash commands</li>
+      <li>Hooks</li>
+      <li>Subagent design</li>
+      <li>Kiro</li>
+      <li>Amazon Q Developer</li>
+    </ul>
   </div>
-  <div class="skill-item">
-    <span class="skill-name">AWS CodeDeploy</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 95%"></div>
-    </div>
+
+  <div class="skill-group">
+    <h3>🧠 LLMs &amp; agents</h3>
+    <ul class="tag-list">
+      <li>MCP servers &amp; clients</li>
+      <li>Tool use</li>
+      <li>Agent loops</li>
+      <li>Context &amp; retrieval design</li>
+      <li>Prompt &amp; workflow design</li>
+      <li>Amazon Bedrock</li>
+      <li>Bedrock AgentCore</li>
+      <li>Knowledge Bases / RAG</li>
+      <li>Guardrails</li>
+    </ul>
   </div>
-  <div class="skill-item">
-    <span class="skill-name">AWS CodeBuild</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 90%"></div>
-    </div>
+
+  <div class="skill-group">
+    <h3>☁️ Cloud &amp; infrastructure (AWS)</h3>
+    <ul class="tag-list">
+      <li>ECS</li>
+      <li>Lambda</li>
+      <li>RDS</li>
+      <li>API Gateway</li>
+      <li>IAM</li>
+      <li>VPC</li>
+      <li>CloudWatch</li>
+      <li>Terraform</li>
+      <li>CloudFormation</li>
+      <li>AWS CDK</li>
+      <li>Docker</li>
+      <li>Amazon EKS</li>
+    </ul>
   </div>
-  <div class="skill-item">
-    <span class="skill-name">AWS CodeCommit</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 90%"></div>
-    </div>
+
+  <div class="skill-group">
+    <h3>💻 Languages &amp; APIs</h3>
+    <ul class="tag-list">
+      <li>Python</li>
+      <li>JavaScript / Node.js</li>
+      <li>SQL</li>
+      <li>Bash</li>
+      <li>REST API design</li>
+      <li>AuthN / AuthZ</li>
+      <li>Secure data handling</li>
+    </ul>
   </div>
-  <div class="skill-item">
-    <span class="skill-name">AWS CodeArtifact</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 85%"></div>
-    </div>
+
+  <div class="skill-group">
+    <h3>🔄 CI/CD &amp; quality</h3>
+    <ul class="tag-list">
+      <li>Git</li>
+      <li>Merge/Pull requests</li>
+      <li>GitHub Actions</li>
+      <li>GitLab CI</li>
+      <li>CodePipeline</li>
+      <li>CodeBuild</li>
+      <li>CodeDeploy</li>
+      <li>Jest</li>
+      <li>Python unittest</li>
+      <li>Code review</li>
+      <li>Runbooks</li>
+    </ul>
+  </div>
+
+  <div class="skill-group">
+    <h3>📊 Observability</h3>
+    <ul class="tag-list">
+      <li>CloudWatch</li>
+      <li>Prometheus</li>
+      <li>Grafana</li>
+      <li>Datadog</li>
+    </ul>
+  </div>
+
+</div>
+
+## Certifications
+
+<div class="cert-grid">
+  <div class="cert-card">
+    <h4>Anthropic</h4>
+    <ul>
+      <li>Claude Certified Associate – Foundations (CCAO-F), 2026</li>
+    </ul>
+  </div>
+  <div class="cert-card">
+    <h4>AWS — 13x (Golden Jacket)</h4>
+    <ul>
+      <li>Generative AI Developer – Professional</li>
+      <li>Solutions Architect – Professional</li>
+      <li>DevOps Engineer – Professional</li>
+      <li>Machine Learning – Specialty</li>
+      <li>Advanced Networking – Specialty</li>
+      <li>Machine Learning Engineer – Associate</li>
+      <li>Data Engineer – Associate</li>
+      <li>CloudOps Engineer – Associate</li>
+      <li>SysOps Administrator – Associate</li>
+      <li>Developer – Associate</li>
+      <li>Solutions Architect – Associate</li>
+      <li>AI Practitioner</li>
+      <li>Cloud Practitioner</li>
+    </ul>
+  </div>
+  <div class="cert-card">
+    <h4>Microsoft</h4>
+    <ul>
+      <li>Azure Fundamentals (AZ-900)</li>
+    </ul>
   </div>
 </div>
 
-### Compute & Application Services
-<div class="skill-category">
-  <div class="skill-item">
-    <span class="skill-name">Elastic Beanstalk</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 95%"></div>
-    </div>
-  </div>
-  <div class="skill-item">
-    <span class="skill-name">Amazon EC2</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 90%"></div>
-    </div>
-  </div>
-  <div class="skill-item">
-    <span class="skill-name">AWS App Runner</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 85%"></div>
-    </div>
-  </div>
-</div>
-
-### Database & Storage
-<div class="skill-category">
-  <div class="skill-item">
-    <span class="skill-name">Amazon RDS</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 90%"></div>
-    </div>
-  </div>
-  <div class="skill-item">
-    <span class="skill-name">Database Connectivity Troubleshooting</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 95%"></div>
-    </div>
-  </div>
-</div>
-
-### Networking & Content Delivery
-<div class="skill-category">
-  <div class="skill-item">
-    <span class="skill-name">Amazon CloudFront</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 85%"></div>
-    </div>
-  </div>
-  <div class="skill-item">
-    <span class="skill-name">VPC & Network Configuration</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 85%"></div>
-    </div>
-  </div>
-</div>
-
-### Infrastructure as Code
-<div class="skill-category">
-  <div class="skill-item">
-    <span class="skill-name">AWS CloudFormation</span>
-    <div class="skill-bar">
-      <div class="skill-progress" style="width: 90%"></div>
-    </div>
-  </div>
-</div>
-
-## DevOps & Automation Tools
-
-### CI/CD & Pipeline Management
-- **Jenkins**: Pipeline creation and management
-- **GitLab CI/CD**: Automated testing and deployment
-- **GitHub Actions**: Workflow automation
-- **Azure DevOps**: End-to-end DevOps solutions
-
-### Infrastructure as Code
-- **Terraform**: Multi-cloud infrastructure provisioning
-- **Ansible**: Configuration management and automation
-- **Docker**: Containerization and orchestration
-- **Kubernetes**: Container orchestration and management
-
-### Monitoring & Observability
-- **Amazon CloudWatch**: Metrics, logs, and alarms
-- **Prometheus**: Metrics collection and monitoring
-- **Grafana**: Data visualization and dashboards
-- **ELK Stack**: Logging and log analysis
-
-## Programming & Scripting
-
-### Languages
-- **Python**: Automation scripts and AWS SDK integration
-- **Bash/Shell**: System administration and automation
-- **PowerShell**: Windows environment automation
-- **YAML/JSON**: Configuration and template management
-
-### Frameworks & Tools
-- **AWS CLI**: Command-line interface for AWS services
-- **AWS SDK**: Programmatic access to AWS services
-- **Git**: Version control and collaboration
-- **Prisma**: Database ORM and management
-
-## Troubleshooting Expertise
-
-### Application Deployment
-- **Deployment Failures**: Root cause analysis and resolution
-- **Environment Configuration**: Optimization and troubleshooting
-- **Performance Issues**: Identification and remediation
-- **Rollback Strategies**: Safe deployment practices
-
-### Database Connectivity
-- **Connection Issues**: Network and security group troubleshooting
-- **Performance Optimization**: Query and connection tuning
-- **Security Configuration**: Access control and encryption
-- **Backup & Recovery**: Data protection strategies
-
-### Network Configuration
-- **Security Groups**: Inbound/outbound rule optimization
-- **Load Balancers**: Health check and routing configuration
-- **DNS Resolution**: Domain and subdomain troubleshooting
-- **SSL/TLS**: Certificate management and troubleshooting
-
-## Soft Skills
-
-### Customer Service
-- **Active Listening**: Understanding customer needs and concerns
-- **Clear Communication**: Explaining technical concepts effectively
-- **Patience & Empathy**: Supporting customers through challenges
-- **Follow-through**: Ensuring complete issue resolution
-
-### Problem Solving
-- **Analytical Thinking**: Systematic approach to complex issues
-- **Root Cause Analysis**: Identifying underlying problems
-- **Creative Solutions**: Finding innovative approaches
-- **Documentation**: Creating clear troubleshooting guides
-
-### Collaboration
-- **Cross-functional Teams**: Working with diverse technical teams
-- **Knowledge Sharing**: Mentoring and training colleagues
-- **Escalation Management**: Coordinating with specialized teams
-- **Customer Advocacy**: Representing customer interests internally
-
----
-
-## Continuous Learning
-
-I'm committed to staying current with the rapidly evolving cloud landscape:
-
-- **AWS Training**: Regular participation in AWS training programs
-- **Certifications**: Pursuing relevant AWS and DevOps certifications
-- **Community Engagement**: Active in AWS and DevOps communities
-- **Hands-on Practice**: Regular experimentation with new services and features
-
-*"The cloud is constantly evolving, and so am I. Every customer interaction is an opportunity to learn and grow."*
+<p class="muted">Verify on <a href="https://credly.com/users/vmarpadge" target="_blank">Credly</a>.</p>

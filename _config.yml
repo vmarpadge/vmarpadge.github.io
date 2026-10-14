@@ -1,22 +1,23 @@
 # Site settings
-title: Vineethkumar Marpadge ☁️ - Cloud Engineer 2 at AWS | 12x AWS Certified Golden Jacket Holder
+title: Vineethkumar Marpadge — Cloud Engineer II | Agentic Development & MCP
 email: vineethkumarmarpadge@gmail.com
 description: >-
-  Cloud Engineer 2 at AWS with 5+ years of experience. 12x AWS Certified Golden Jacket Holder, 1x Terraform Certified.
-  Specializing in cloud infrastructure, resolved 200+ complex issues, achieved 40% cost savings.
-baseurl: "/vineethkumarmarpadge.github.io" # the subpath of your site
+  Cloud Engineer II with 7+ years building and operating production software and cloud platforms on AWS.
+  Claude Code as a primary development environment, agentic workflows and MCP servers on Amazon Bedrock,
+  13x AWS Certified (Golden Jacket), Claude Certified Associate.
+baseurl: "" # served at the domain root (vmarpadge.github.io)
 url: "https://vmarpadge.github.io" # the base hostname & protocol for your site
-twitter_username: vineethkumar_aws
 github_username: vmarpadge
 linkedin_username: vmarpadge
 
 # SEO and Social Media
 logo: /assets/images/profile.jpg
 social:
-  name: Vineethkumar Marpadge ☁️
+  name: Vineethkumar Marpadge
   links:
-    - https://linkedin.com/in/vineethkumar-marpadge
-    - https://github.com/vineethkumar-marpadge
+    - https://linkedin.com/in/vmarpadge
+    - https://github.com/vmarpadge
+    - https://credly.com/users/vmarpadge
 
 # Build settings
 markdown: kramdown
@@ -28,15 +29,16 @@ plugins:
 
 # Custom variables
 author:
-  name: Vineethkumar Marpadge ☁️
-  title: Cloud Support Engineer 2
+  name: Vineethkumar Marpadge
+  title: Cloud Engineer II
   company: Amazon Web Services (AWS)
-  location: India
+  location: Hyderabad, India (Remote)
   image: /assets/images/profile.jpg
   bio: >-
-    Motivated and customer-focused AWS engineer with 5+ years of experience providing technical support 
-    for cloud-based systems. 12x AWS Certified Golden Jacket Holder, 1x Terraform Certified. Successfully resolved 200+ complex 
-    cloud infrastructure issues and achieved 40% cost savings through optimized cloud solutions.
+    Cloud Engineer with 7+ years building and operating production software and cloud platforms on AWS.
+    I use Claude Code as my primary development environment, build agentic workflows and Model Context
+    Protocol (MCP) servers on Amazon Bedrock and Bedrock AgentCore, and turn repeated manual work into
+    automated, tested checks. Claude Certified Associate (CCAO-F), 13x AWS Certified (Golden Jacket).
 
 # Navigation
 header_pages:
@@ -44,14 +46,7 @@ header_pages:
   - experience.md
   - skills.md
   - projects.md
-  - blog.md
   - contact.md
-
-# Collections
-collections:
-  case_studies:
-    output: true
-    permalink: /:collection/:name/
 
 # Exclude from processing
 exclude:

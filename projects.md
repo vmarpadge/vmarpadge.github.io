@@ -1,222 +1,68 @@
 ---
 layout: page
-title: Projects & Case Studies
+title: Projects
 permalink: /projects/
 ---
 
-# Projects & Case Studies
+# Projects
 
-*Note: All customer information has been anonymized to protect confidentiality while showcasing technical expertise and problem-solving approaches.*
+A mix of open-source work and production engineering. Customer-specific details are kept general to
+respect confidentiality.
 
-## Personal & Open-Source Projects
+## Open source
 
-### FanDeck for Atomberg — macOS Menu Bar App
-**Overview**: A native macOS menu bar app to control Atomberg smart ceiling fans (power, speed 1–6, and light) directly from the Mac, built on the official Atomberg Home public API.
+<div class="project-card">
+  <h3>FanDeck for Atomberg — macOS menu bar app</h3>
+  <p>A native macOS menu bar app to control Atomberg smart ceiling fans (power, speed 1–6, and light)
+  from the Mac, built on the official Atomberg Home public API.</p>
+  <ul>
+    <li><strong>Swift / SwiftUI</strong> menu bar app that builds with Command Line Tools alone — no full Xcode or Apple ID.</li>
+    <li><strong>Quota-aware API client</strong>: token caching, batched reads, lazy polling, a command reserve, and 429 back-off.</li>
+    <li><strong>Optimistic UI with delayed confirmation</strong> for the gap between a command being accepted and applied.</li>
+    <li><strong>Secure by default</strong>: credentials in the macOS Keychain via the Security framework; ephemeral <code>URLSession</code>; no secrets on disk or in logs.</li>
+    <li><strong>CI/CD</strong>: GitHub Actions builds and publishes a downloadable release on each tagged version.</li>
+  </ul>
+  <p class="project-tech">Swift · SwiftUI · Keychain / Security framework · URLSession · GitHub Actions</p>
+  <a href="https://github.com/vmarpadge/fandeck-for-atomberg" class="btn btn-outline" target="_blank">View on GitHub →</a>
+</div>
 
-**Highlights**:
-- **Swift / SwiftUI** menu bar app that builds with Command Line Tools alone — no full Xcode or Apple ID required
-- **Quota-aware API client**: token caching, batched state reads, lazy polling, a command reserve, and 429 back-off to stay within the API's 100-calls/day limit
-- **Optimistic UI with delayed confirmation** to handle the gap between a command being *accepted* and *applied*
-- **Secure credential handling**: API key and refresh token stored in the macOS Keychain via the Security framework; ephemeral `URLSession`, no secrets on disk or in logs
-- **CI/CD**: a GitHub Actions workflow builds and publishes a downloadable release on each tagged version
+<div class="project-card">
+  <h3>Parkinson's Detection Using Machine Learning</h3>
+  <p>Detecting Parkinson's disease from sustained-vowel speech samples using signal features and an
+  SVM classifier, with particle-swarm optimization for feature selection.</p>
+  <ul>
+    <li>Feature extraction (jitter, shimmer, HNR/NHR, pitch) from the UCI voice dataset.</li>
+    <li>Dimensionality reduction via Particle Swarm Optimization (PSO).</li>
+    <li>SVM classification for healthy-vs-affected prediction.</li>
+  </ul>
+  <p class="project-tech">Python · Machine Learning · SVM · PSO · signal processing</p>
+  <a href="https://github.com/vmarpadge/Parkinsons-Detection-Using-Machine-Learning" class="btn btn-outline" target="_blank">View on GitHub →</a>
+</div>
 
-**Technologies**: Swift, SwiftUI, Security framework (Keychain), URLSession, GitHub Actions, REST API integration
+## Production engineering
 
-[View on GitHub →](https://github.com/vmarpadge/fandeck-for-atomberg)
+<div class="project-card">
+  <h3>Agentic &amp; GenAI solutions on Amazon Bedrock</h3>
+  <p>Build and troubleshoot AI agents and MCP servers that connect large language models to tools and
+  internal systems, deployed on Amazon Bedrock and Bedrock AgentCore for enterprise customers —
+  including MCP integrations for observability and ticketing tools.</p>
+  <p class="project-tech">Amazon Bedrock · Bedrock AgentCore · MCP · RAG / Knowledge Bases · Guardrails</p>
+</div>
 
----
+<div class="project-card">
+  <h3>Internal diagnostic tooling for support engineers</h3>
+  <p>A troubleshooting dashboard and automated issue detector (JavaScript/Node.js) that replaced
+  manual, repetitive investigation steps across the team. Delivered from design doc and engineering
+  review through implementation, with 98 unit tests at 95% coverage and documentation for handoff.
+  An MCP interface so AI assistants can use the tool is planned next.</p>
+  <p class="project-tech">Node.js · Jest · AWS SDK · code review · runbooks</p>
+</div>
 
-### Parkinson's Detection Using Machine Learning
-**Overview**: Detecting Parkinson's disease from sustained-vowel speech samples using signal features and an SVM classifier, with particle-swarm optimization for feature selection.
-
-**Highlights**:
-- Feature extraction (jitter, shimmer, HNR/NHR, pitch metrics) from the standard UCI voice dataset
-- Dimensionality reduction via Particle Swarm Optimization (PSO)
-- SVM classification for healthy-vs-affected prediction
-
-**Technologies**: Python, Machine Learning, SVM, PSO, signal processing
-
-[View on GitHub →](https://github.com/vmarpadge/Parkinsons-Detection-Using-Machine-Learning)
-
----
-
-## Customer Support Success Stories
-
-### Critical Production Deployment Recovery
-**Challenge**: Customer's production application deployment failed during a critical business period, affecting their live service availability.
-
-**Technical Details**:
-- **Service**: AWS Elastic Beanstalk with .NET application
-- **Issue**: CodeDeploy deployment failure with "Command hooks failed" error
-- **Impact**: Production environment in degraded state
-
-**Solution Approach**:
-1. **Rapid Assessment**: Analyzed deployment logs and environment health
-2. **Root Cause Identification**: Discovered MSBuild command compatibility issues
-3. **Immediate Resolution**: Provided step-by-step recovery process
-4. **Long-term Fix**: Recommended deployment configuration improvements
-
-**Outcome**: 
-- Production service restored within 2 hours
-- Implemented preventive measures to avoid future occurrences
-- Customer gained confidence in their deployment process
-
-**Technologies**: Elastic Beanstalk, CodeDeploy, CloudFormation, Windows Server 2019
-
----
-
-### Database Connectivity Crisis Resolution
-**Challenge**: Backend application unable to connect to PostgreSQL RDS instance, causing complete service outage.
-
-**Technical Details**:
-- **Service**: Amazon RDS PostgreSQL with Prisma ORM
-- **Issue**: `PrismaClientInitializationError` - database server unreachable
-- **Impact**: Frontend functional but backend services completely down
-
-**Solution Strategy**:
-1. **Network Diagnostics**: Systematic connectivity testing from EC2 instances
-2. **Security Analysis**: Reviewed security groups, NACLs, and VPC configuration
-3. **Resource Assessment**: Checked RDS instance health and resource utilization
-4. **Configuration Validation**: Verified connection strings and authentication
-
-**Resolution Steps**:
-```bash
-# Connectivity testing performed
-psql -h database-endpoint -p 5432 -U username -d database
-telnet database-endpoint 5432
-nc -zv database-endpoint 5432
-```
-
-**Outcome**:
-- Identified and resolved security group misconfiguration
-- Restored full application functionality
-- Implemented monitoring to prevent future connectivity issues
-- Provided comprehensive troubleshooting documentation
-
-**Technologies**: Amazon RDS, PostgreSQL, Prisma, EC2, VPC, Security Groups
-
----
-
-### Multi-Environment CI/CD Pipeline Optimization
-**Challenge**: Customer experiencing inconsistent deployments across development, staging, and production environments.
-
-**Technical Details**:
-- **Services**: CodePipeline, CodeBuild, CodeDeploy, Elastic Beanstalk
-- **Issue**: Environment-specific configuration conflicts and deployment failures
-- **Complexity**: Multiple application versions and environment configurations
-
-**Optimization Approach**:
-1. **Pipeline Analysis**: Reviewed existing CI/CD configuration
-2. **Environment Standardization**: Implemented consistent deployment patterns
-3. **Configuration Management**: Separated environment-specific variables
-4. **Testing Strategy**: Enhanced automated testing and validation
-
-**Improvements Delivered**:
-- 90% reduction in deployment failures
-- Consistent deployment process across all environments
-- Automated rollback capabilities
-- Enhanced monitoring and alerting
-
-**Technologies**: CodePipeline, CodeBuild, CodeDeploy, CloudFormation, Elastic Beanstalk
-
----
-
-### High-Traffic Application Scaling Solution
-**Challenge**: Customer's application experiencing performance issues during peak traffic periods.
-
-**Technical Details**:
-- **Service**: Elastic Beanstalk with Auto Scaling
-- **Issue**: Slow response times and occasional timeouts during traffic spikes
-- **Scale**: Handling 10x normal traffic during promotional events
-
-**Scaling Strategy**:
-1. **Performance Analysis**: Identified bottlenecks in application and infrastructure
-2. **Auto Scaling Optimization**: Configured predictive scaling policies
-3. **Load Balancer Tuning**: Optimized health checks and routing
-4. **Database Optimization**: Implemented connection pooling and query optimization
-
-**Results**:
-- 70% improvement in response times during peak traffic
-- Zero downtime during subsequent promotional events
-- Reduced infrastructure costs through efficient scaling
-- Improved customer experience and business outcomes
-
-**Technologies**: Elastic Beanstalk, Application Load Balancer, Auto Scaling, CloudWatch, RDS
-
----
-
-## DevOps Automation Projects
-
-### Infrastructure as Code Migration
-**Project**: Migrated manual infrastructure provisioning to automated CloudFormation templates.
-
-**Scope**:
-- 50+ AWS resources across multiple environments
-- Complex networking and security configurations
-- Database and application tier automation
-
-**Achievements**:
-- 80% reduction in provisioning time
-- Eliminated configuration drift between environments
-- Improved disaster recovery capabilities
-- Enhanced security through standardized configurations
-
-**Technologies**: CloudFormation, AWS CLI, Python, Git
-
----
-
-### Monitoring & Alerting Implementation
-**Project**: Comprehensive monitoring solution for multi-tier application architecture.
-
-**Components**:
-- Application performance monitoring
-- Infrastructure health monitoring
-- Custom business metrics tracking
-- Automated incident response
-
-**Impact**:
-- 95% reduction in mean time to detection (MTTD)
-- Proactive issue identification and resolution
-- Improved system reliability and uptime
-- Enhanced operational visibility
-
-**Technologies**: CloudWatch, SNS, Lambda, Custom Metrics
-
----
-
-## Technical Contributions
-
-### Knowledge Base Articles
-- **"Troubleshooting Elastic Beanstalk Deployment Failures"**: Comprehensive guide for common deployment issues
-- **"RDS Connectivity Best Practices"**: Security and performance optimization guide
-- **"CodePipeline Optimization Strategies"**: Performance and reliability improvements
-
-### Internal Training Materials
-- Created troubleshooting workflows for complex multi-service issues
-- Developed customer communication templates for technical explanations
-- Contributed to team knowledge sharing sessions
-
-### Process Improvements
-- Streamlined case escalation procedures
-- Enhanced documentation standards for technical solutions
-- Implemented customer feedback collection and analysis
-
----
-
-## Ongoing Projects
-
-### Customer Success Metrics Dashboard
-**Objective**: Create comprehensive dashboard for tracking customer support effectiveness and technical resolution patterns.
-
-**Current Status**: In development
-**Technologies**: CloudWatch, QuickSight, Lambda
-
-### Automated Troubleshooting Tools
-**Objective**: Develop automated diagnostic tools for common AWS service issues.
-
-**Current Status**: Proof of concept phase
-**Technologies**: Python, AWS SDK, Lambda, Systems Manager
-
----
-
-*"Every project is an opportunity to learn, grow, and deliver exceptional value to customers. I'm passionate about turning complex challenges into elegant solutions."*
+<div class="project-card">
+  <h3>Reliability &amp; cost optimization at scale</h3>
+  <p>Resolved complex production issues across 200+ deployments (ECS/EKS, Lambda, networking, CI/CD),
+  and led customer recovery during a large-scale service event. Advised on Blue/Green and Canary
+  release safety, helping customers reach ~40% lower cloud spend and 99.9% uptime; reproduced
+  environments with Terraform, CloudFormation, and AWS CDK to isolate failures.</p>
+  <p class="project-tech">ECS · EKS · Lambda · Terraform · CloudFormation · AWS CDK · CloudWatch</p>
+</div>

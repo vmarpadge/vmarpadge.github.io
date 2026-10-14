@@ -1,107 +1,80 @@
 ---
 layout: page
-title: Professional Experience
+title: Experience
 permalink: /experience/
 ---
 
 # Professional Experience
 
-## Current Role
+## Cloud Support Engineer II — Amazon Web Services
+*Hyderabad · May 2021 – Present*
 
-### Cloud Support Engineer 2 | Amazon Web Services
-*Current Position*
+- **Designed and built internal diagnostic tooling (JavaScript/Node.js)** for support engineers — a
+  troubleshooting dashboard and an automated issue detector that replaced manual, repetitive
+  investigation steps across the team. Took it from design doc and engineering review through
+  implementation to **98 unit tests at 95% coverage** and code review, with documentation for team
+  handoff; an MCP interface so AI assistants can use the tool is planned next.
+- **Build and troubleshoot agentic and generative-AI solutions on Amazon Bedrock and Bedrock
+  AgentCore**, including AI agents and MCP servers that connect LLMs to tools and APIs, in production
+  for enterprise customers.
+- **Run Claude Code and AI coding agents** (Kiro, AWS DevOps agent) as my primary development
+  environment, and drive their adoption across the org through technical articles and hands-on
+  workshops.
+- **Troubleshoot AI agent integrations** for enterprise customers — connecting MCP servers for
+  observability and ticketing tools, and resolving webhook, authentication, and connectivity issues.
+- **Build Python and AWS SDK tooling** that turns repeated manual investigations into automated,
+  tested checks, reducing time spent on repetitive diagnostic work.
+- **Own the customer experience for an AWS CI/CD service** as cross-team point of contact: author
+  operational playbooks and runbooks, and turn recurring customer issues into product fixes and
+  documentation with the service team.
+- **Resolve complex production issues across 200+ deployments** (ECS/EKS, Lambda, networking, CI/CD);
+  led customer recovery during a large-scale service event affecting thousands of customers.
+- **Advise on architecture and release safety** (Blue/Green and Canary); helped customers achieve
+  **~40% lower cloud spend and 99.9% uptime**; reproduce customer environments with Terraform,
+  CloudFormation, and AWS CDK to isolate failures.
+- **Mentor and hire:** conducted **70+ technical interviews**; train and onboard engineers through
+  workshops; subject-matter expert in AWS CI/CD services and Elastic Beanstalk.
 
-As a Cloud Support Engineer 2 at AWS, I provide technical support for AWS Premium Support customers, specializing in:
+## Cloud Engineer — Deloitte (US Offices)
+*Hyderabad · Jan 2021 – May 2021*
 
-#### Key Responsibilities
-- **Technical Issue Resolution**: Troubleshoot complex issues across multiple AWS services including Elastic Beanstalk, CodePipeline, CodeDeploy, CodeBuild, CodeCommit, and CodeArtifact
-- **Customer Consultation**: Provide architectural guidance and best practice recommendations for cloud infrastructure
-- **Critical Incident Management**: Handle high-severity production issues with rapid response and resolution
-- **Knowledge Sharing**: Create documentation and share expertise with both customers and internal teams
+- Designed and deployed **20+ AWS Lambda microservices** with automated CI/CD, reducing operational
+  overhead by **~30%**.
+- Built modular Infrastructure as Code (CloudFormation/CDK), keeping staging and production consistent.
 
-#### Service Specializations
-- **AWS Developer Tools**: Deep expertise in CI/CD pipelines, code deployment, and developer workflows
-- **Elastic Beanstalk**: Application deployment, environment management, and troubleshooting
-- **Database Connectivity**: RDS troubleshooting, connection optimization, and performance tuning
-- **Infrastructure as Code**: CloudFormation template optimization and deployment automation
+## Software Engineer — Accenture Solutions Pvt Ltd
+*Hyderabad · Aug 2019 – Jan 2021*
 
-#### Customer Impact
-- Successfully resolved critical production deployment issues for enterprise customers
-- Provided architectural guidance that improved application reliability and performance
-- Maintained high customer satisfaction scores through clear communication and effective problem resolution
-- Contributed to knowledge base articles and internal training materials
-
-## Previous Experience
-
-### DevOps Engineer
-*Previous Role*
-
-Before joining AWS Support, I worked as a DevOps Engineer where I gained hands-on experience with:
-
-#### Technical Expertise
-- **CI/CD Pipeline Development**: Designed and implemented automated deployment pipelines
-- **Infrastructure Automation**: Created Infrastructure as Code solutions for scalable deployments
-- **Monitoring & Observability**: Implemented comprehensive monitoring and alerting systems
-- **Cloud Migration**: Led migration projects from on-premises to cloud infrastructure
-
-#### Key Achievements
-- Reduced deployment time by 70% through automation and pipeline optimization
-- Improved system reliability through proactive monitoring and incident response procedures
-- Mentored team members on DevOps best practices and cloud technologies
-- Collaborated with development teams to implement DevOps culture and practices
-
-## Professional Approach
-
-### Problem-Solving Methodology
-1. **Listen & Understand**: Thoroughly understand the customer's challenge and business impact
-2. **Investigate & Analyze**: Use systematic troubleshooting to identify root causes
-3. **Solve & Implement**: Provide clear, actionable solutions with step-by-step guidance
-4. **Follow-up & Optimize**: Ensure resolution success and identify improvement opportunities
-
-### Communication Style
-- **Clear & Concise**: Explain technical concepts in accessible language
-- **Proactive Updates**: Keep customers informed throughout the resolution process
-- **Empathetic Approach**: Understand the business impact and urgency of technical issues
-- **Knowledge Transfer**: Empower customers with understanding, not just solutions
-
-### Continuous Learning
-- Stay current with new AWS services and features
-- Participate in internal training and certification programs
-- Contribute to team knowledge sharing sessions
-- Engage with the broader AWS and DevOps communities
-
-## Recognition & Impact
-
-### Customer Feedback
-*"Vineethkumar's expertise and clear communication helped us resolve a critical production issue quickly. His recommendations have improved our overall infrastructure reliability."*
-
-### Internal Recognition
-- Consistently high customer satisfaction ratings
-- Recognized for technical expertise and customer service excellence
-- Contributor to team best practices and knowledge sharing initiatives
+- Built automation tooling on the Spring Framework (Java), improving system performance by **~80%**.
+- Containerised applications with Docker and helped teams mature their CI/CD practices.
 
 ---
 
-## Career Timeline
+## Career timeline
 
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-date">Present</div>
+    <div class="timeline-date">May 2021 – Present</div>
     <div class="timeline-content">
-      <h3>Cloud Support Engineer 2</h3>
+      <h3>Cloud Support Engineer II</h3>
       <h4>Amazon Web Services</h4>
-      <p>Providing technical support for AWS Premium Support customers with focus on Developer Tools and application deployment services.</p>
+      <p>Agentic/GenAI on Bedrock, internal tooling, and production reliability across ECS/EKS, Lambda, networking, and CI/CD.</p>
     </div>
   </div>
-  
   <div class="timeline-item">
-    <div class="timeline-date">Previous</div>
+    <div class="timeline-date">Jan 2021 – May 2021</div>
     <div class="timeline-content">
-      <h3>DevOps Engineer</h3>
-      <h4>Previous Organization</h4>
-      <p>Implemented CI/CD pipelines, infrastructure automation, and cloud migration projects.</p>
+      <h3>Cloud Engineer</h3>
+      <h4>Deloitte (US Offices)</h4>
+      <p>20+ Lambda microservices with automated CI/CD and modular IaC.</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Aug 2019 – Jan 2021</div>
+    <div class="timeline-content">
+      <h3>Software Engineer</h3>
+      <h4>Accenture Solutions Pvt Ltd</h4>
+      <p>Java/Spring automation tooling and Docker containerisation.</p>
     </div>
   </div>
 </div>
-
-*Ready to bring this experience to help solve your cloud challenges!*
